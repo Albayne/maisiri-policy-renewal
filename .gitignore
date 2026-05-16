@@ -1,0 +1,44 @@
+# Environment variables - DO NOT COMMIT
+.env
+.env.local
+
+# Uploaded files and temporary files
+uploads/*
+!uploads/.gitkeep
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.directory
+
+# Database session and temporary files
+*.session.sql
+*.tmp
+
+# Node/package manager (if using in future)
+node_modules/
+npm-debug.log
+
+# Composer (if using in future)
+vendor/
+composer.lock
+
+# Log files
+*.log
+logs/
+
+# Cache files
+*.cache
+.cache/
+
+# Temporary files
+*.temp
+temp/
+tmp/
